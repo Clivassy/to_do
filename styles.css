@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&family=Montserrat:wght@100&family=Poppins:wght@100&family=Roboto+Serif:wght@100&display=swap');
 
 body{
+    color: #606c38;
+    font-weight: bold;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -60,3 +62,33 @@ body{
     background-color: #606c38;
     color: #faedcd;
 }
+
+#new_task input:focus{ 
+    outline: none;
+    border-color:#606c38;
+}
+
+/* TASKS */
+
+#task{
+    border-radius: 6px;
+    width: 90%;
+    position: relative;
+    background-color : #d4a373;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+
