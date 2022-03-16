@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&family=Montserrat:wght@100&family=Poppins:wght@100&family=Roboto+Serif:wght@100&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ccd5ae;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 12px 12px 2px 1px #faedcd;
+    /* box-shadow: 2px 2px #faedcd, -1em 0 .4em #faedcd; */
+    background-color: #fefae0;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    min-width: 550px;
+    min-height: 200px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+#new_task{
+    background-color: red;
+}
