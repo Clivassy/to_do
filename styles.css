@@ -12,18 +12,51 @@ body{
 .container{
     font-weight: bold;
     border-radius: 6px;
-    box-shadow: 12px 12px 2px 1px #faedcd;
+    box-shadow: 10px 10px 1px 3px #faedcdec;
     /* box-shadow: 2px 2px #faedcd, -1em 0 .4em #faedcd; */
     background-color: #fefae0;
     width: 40%;
     top: 50%;
     left: 50%;
     min-width: 550px;
-    min-height: 200px;
+    min-height: 250px;
     position: absolute;
     transform: translate(-50%,-50%);
 }
 
 #new_task{
-    background-color: red;
+    position: relative;
+    padding: 30px 20px;
+}
+
+#new_task input{
+    /* background-color: red; */
+    border-radius: 3px;
+    width: 75%;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#new_task button{
+    position: relative;
+    float: right;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #faedcd;
+    border: none;
+    color: #283618 ;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+#new_task button:hover{
+    background-color: #606c38;
+    color: #faedcd;
 }
