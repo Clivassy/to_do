@@ -70,7 +70,7 @@ body{
 
 /* TASKS */
 
-#task{
+/* #task{
     border-radius: 6px;
     width: 90%;
     position: relative;
@@ -78,7 +78,7 @@ body{
     padding: 30px 20px;
     margin-top: 40px;
 }
-
+ */
 .task{
     border-radius: 5px;
     align-items: center;
